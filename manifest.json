@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Logout Everywhere",
+  "version": "1.0.0",
+  "description": "Signs you out of all websites by clearing cookies and site storage.",
+  "permissions": ["browsingData"],
+  "action": {
+    "default_title": "Log out of all accounts",
+    "default_popup": "popup.html"
+  }
+}
